@@ -6,31 +6,31 @@ A privacy-preserving cross-chain bridge with Fully Homomorphic Encryption (FHE) 
 ![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?style=for-the-badge&logo=typescript)
 
-## 🌟 Features
+## Features
 
-### 🔐 Privacy-Preserving Bridge
+### Privacy-Preserving Bridge
 - **FHE Encryption**: Simulated Fully Homomorphic Encryption for private routing preferences
 - **Private Intent Routing**: Encrypt routing preferences (Fastest/Cheapest) without revealing them on-chain
 - **Silent Explorer**: View encrypted transaction logs with privacy-shielded status
 
-### 🎨 High-Fidelity UI
+### High-Fidelity UI
 - **Relay-Style Solar Aesthetic**: Clean, bright design with #FEDA15 accent color
 - **Seamless Input Flow**: Borderless, modern input design with oversized typography
 - **Bento Box Grid**: Elegant transaction explorer with clean tile layout
 - **Live Price Updates**: Real-time ETH price from CoinGecko API (updates every 15 seconds)
 
-### 🔗 Multi-Chain Support
+### Multi-Chain Support
 - **10+ EVM Testnets**: Sepolia, Zama Devnet, Base Sepolia, Polygon Amoy, Arbitrum Sepolia, Optimism Sepolia, Berachain Artio, Blast Sepolia, Linea Sepolia, Scroll Sepolia
 - **Wallet Integration**: Privy.io authentication with embedded wallets
 - **Network Selector**: Easy chain switching
 
-### 🚀 Demo Mode
+### Demo Mode
 - **Mock FHE Service**: Simulates encryption without WASM dependencies
 - **Full UI Functionality**: Complete bridge interface for demonstration
 - **Transaction History**: Pre-populated with sample transactions
 - **No External Dependencies**: Works without blockchain connections
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14.2 (App Router)
 - **Language**: TypeScript
@@ -40,7 +40,7 @@ A privacy-preserving cross-chain bridge with Fully Homomorphic Encryption (FHE) 
 - **HTTP Client**: Axios
 - **FHE SDK**: @zama-fhe/relayer-sdk (currently mocked)
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -67,7 +67,7 @@ A privacy-preserving cross-chain bridge with Fully Homomorphic Encryption (FHE) 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 
@@ -92,7 +92,7 @@ npm run build
 npm start
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -113,7 +113,7 @@ frontend/
 └── tsconfig.json               # TypeScript configuration
 ```
 
-## 🎯 Key Components
+## Key Components
 
 ### DemoBridge Component
 The main bridge interface featuring:
@@ -134,7 +134,7 @@ Pre-configured with:
 - Mock tokens (ETH, USDC, etc.)
 - Sample transaction history
 
-## 🔧 Configuration
+## Configuration
 
 ### Supported Chains
 
@@ -155,7 +155,7 @@ Pre-configured with:
 |----------|-------------|----------|
 | `NEXT_PUBLIC_PRIVY_APP_ID` | Privy.io App ID | Yes |
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - **Primary Accent**: #FEDA15 (Vibrant Yellow)
@@ -169,7 +169,7 @@ Pre-configured with:
 - **Input Font Size**: 2.5rem (Oversized)
 - **Font Weight**: 600-700 (Semi-bold to Bold)
 
-## 🔒 Privacy Features
+## Privacy Features
 
 ### Private Intent Routing
 - User's routing preference (Fastest/Cheapest) is encrypted using simulated FHE
@@ -182,14 +182,14 @@ Pre-configured with:
 - Truncated addresses (0x12...34) for clean display
 - "View Private Routing" button reveals encrypted on-chain data
 
-## 📝 Scripts
+## Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Build Errors
 - **Module not found: axios**: Run `npm install axios`
@@ -201,7 +201,7 @@ Pre-configured with:
 - **Price not updating**: Verify CoinGecko API is accessible (no API key required)
 - **Styling issues**: Ensure all CSS is properly loaded
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -209,18 +209,18 @@ Pre-configured with:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is private and proprietary.
 
-## 🔗 Links
+## Links
 
 - **Repository**: [https://github.com/Forgingalex/silentbridge](https://github.com/Forgingalex/silentbridge)
 - **Privy.io**: [https://privy.io](https://privy.io)
 - **Zama FHE**: [https://zama.ai](https://zama.ai)
 - **CoinGecko API**: [https://www.coingecko.com/api](https://www.coingecko.com/api)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by [Relay.link](https://relay.link/bridge) design aesthetic
 - Built with Next.js and Privy.io
