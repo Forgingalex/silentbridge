@@ -1,0 +1,24 @@
+{
+  "name": "@forgingalex/silent-bridge-sdk",
+  "version": "1.0.0",
+  "description": "software development kit for the silentBTC intent bridge protocol on Stacks.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forgingalex/silentBTC.git"
+  },
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "sbtc",
+    "defi",
+    "intent",
+    "bridge"
+  ],
+  "author": "Alexander Olaiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Forgingalex/silentBTC/issues"
+  },
+  "homepage": "https://silentbridge-nu.vercel.app"
+}
