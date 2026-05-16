@@ -88,7 +88,7 @@ Open `http://localhost:3000`.
 
 ## Verification
 
-Run this before every release candidate:
+Run this before every release candidate;
 
 ```bash
 cd /Users/apple/Downloads/silentBTC/stacks-contracts
